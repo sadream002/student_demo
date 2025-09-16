@@ -1,3 +1,7 @@
 students = [
-    {"name": "你的姓名", "student_id": "你的学号"}
+    {"name": "zhangsan", "student_id": "20250001"},
+    {"name": "lisi", "student_id": "20250002"},
 ]
+
+for student in students:
+    print(f"Name: {student['name']}, Student ID: {student['student_id']}")
